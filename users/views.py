@@ -13,3 +13,13 @@ def register(request):
     else:
         form = UserRegisterForm()
     return render(request, 'users/register.html', {'form': form})
+
+
+def home(request):
+    # print(Comment.objects.all())
+    # context = {
+    #     'posts': Post.objects.all()
+    # }
+
+    return render(request, "users/home.html")
+
