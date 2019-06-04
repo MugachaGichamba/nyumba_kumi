@@ -24,12 +24,12 @@ def home(request):
 
     return render(request, "users/home.html")
 
-#
-# @login_required
-# def profile(request):
-#     return render(request, 'users/profile.html')
-#
-#
+
+@login_required
+def profile(request):
+    return render(request, 'users/profile.html')
+
+
 # @login_required
 # def update_profile(request):
 #     if request.method == 'POST':
