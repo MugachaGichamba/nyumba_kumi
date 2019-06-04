@@ -24,5 +24,8 @@ class Business(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     business = models.ForeignKey(Hood, on_delete=models.CASCADE)
 
-    def get_absolute_url(self):
-        return reverse('home')
+
+class Contact(models.Model):
+    email = models.EmailField(blank=False, null=False)
+    phone = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
