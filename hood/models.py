@@ -20,9 +20,12 @@ class Hood(models.Model):
 
 
 class Business(models.Model):
+    image = models.ImageField(default='default.jpeg', upload_to='biz_pics')
+    name = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
     email = models.EmailField(blank=False, null=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    business = models.ForeignKey(Hood, on_delete=models.CASCADE)
+    hood = models.ForeignKey(Hood, on_delete=models.CASCADE)
 
 
 class Contact(models.Model):
