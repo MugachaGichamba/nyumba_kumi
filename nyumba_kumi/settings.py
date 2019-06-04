@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'users.apps.UsersConfig',
     'hood.apps.HoodConfig',
+    'posts.apps.PostsConfig',
     'crispy_forms',
     'django.contrib.contenttypes',
     'django.contrib.sessions',

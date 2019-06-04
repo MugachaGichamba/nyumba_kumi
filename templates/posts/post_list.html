@@ -1,0 +1,22 @@
+{% extends 'nyumba_kumi/base.html' %}
+
+{% block content %}
+    <h1>Recent Posts</h1>
+    {% for post in object_list %}
+        <div style="text-align: center;border: 1px solid blue;margin: 2px">
+            <h3>{{ post.title }}</h3>
+
+            <p>{{ post.description }}</p>
+            <h5>
+                <small>{{ post.author }}</small>
+            </h5>
+        </div>
+
+
+
+    {% endfor %}
+
+
+
+
+{% endblock content %}
