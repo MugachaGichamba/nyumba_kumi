@@ -1,4 +1,4 @@
-{% extends 'rateme/base.html' %}
+{% extends 'nyumba_kumi/base.html' %}
 
 {% block content %}
     <div class="row">
@@ -7,7 +7,7 @@
                 <div class="card">
 
                     <h3>{{ business.name }}</h3>
-                    <a href="{% url 'project-detail'  business.id %}" target="_blank"><img
+                    <a href="#" target="_blank"><img
                             style="width: 200px; height: 200px;"
                             src="{{ business.image.url }}"
                             alt="project image"></a>
