@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e8c59a-59d3-4e52-9925-d013fe6e0396" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/default.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,8 +118,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+              <first_editor relative-caret-position="255">
+                <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -166,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="25" />
     <option name="width" value="683" />
     <option name="height" value="743" />
@@ -297,7 +296,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559568198653</updated>
-      <workItem from="1559568200348" duration="12047000" />
+      <workItem from="1559568200348" duration="12151000" />
     </task>
     <task id="LOCAL-00001" summary="created base html file">
       <created>1559569422557</created>
@@ -583,17 +582,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12047000" />
+    <option name="totallyTimeSpent" value="12151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28181818" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28181818" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3306189" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3306189" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -807,8 +806,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <first_editor relative-caret-position="255">
+            <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           </first_editor>
           <second_editor />
         </state>

@@ -51,7 +51,7 @@ Django 2.2.1
 | ------------- |:----:|
 | Register as a user | user is now able to login |
 | Log in to the application | user is now able to post a business|
-| user posts a business |business can be viewed by everyone visiting the site|
+| user posts a post |post can be viewed by everyone visiting the site|
 | update neighbourhood | user changes their neighbourhood in the profile|
 
 
