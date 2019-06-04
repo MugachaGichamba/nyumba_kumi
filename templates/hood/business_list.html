@@ -1,0 +1,23 @@
+{% extends 'rateme/base.html' %}
+
+{% block content %}
+    <div class="row">
+        {% for business in object_list %}
+            <div class="col-md-3">
+                <div class="card">
+
+                    <h3>{{ business.title }}</h3>
+                    <a href="{% url 'project-detail'  business.id %}" target="_blank"><img
+                            style="width: 200px; height: 200px;"
+                            src="{{ business.image.url }}"
+                            alt="project image"></a>
+
+
+                </div>
+            </div>
+        {% endfor %}
+
+
+    </div>
+
+{% endblock content %}
