@@ -19,10 +19,10 @@ class Hood(models.Model):
         return reverse('home')
 
 
-# class Business(models.Model):
-#     email = models.EmailField(blank=False, null=False)
-#     user = models.ForeignKey(User, on_delete=models.CASCADE)
-#     business = models.ForeignKey(Hood, on_delete=models.CASCADE)
-#
-#     def get_absolute_url(self):
-#         return reverse('home')
+class Business(models.Model):
+    email = models.EmailField(blank=False, null=False)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    business = models.ForeignKey(Hood, on_delete=models.CASCADE)
+
+    def get_absolute_url(self):
+        return reverse('home')
