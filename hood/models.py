@@ -27,6 +27,12 @@ class Business(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     hood = models.ForeignKey(Hood, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.name
+
+    def get_absolute_url(self):
+        return reverse('biz-all')
+
 
 class Contact(models.Model):
     email = models.EmailField(blank=False, null=False)

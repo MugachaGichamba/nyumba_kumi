@@ -1,0 +1,22 @@
+{% extends 'nyumba_kumi/base.html' %}
+
+{% block content %}
+    <div class="row">
+        {% for hood in object_list %}
+            <div class="col-md-3">
+                <div class="card">
+
+                    <h3>{{ hood.name }}</h3>
+
+
+            <h4>Located in: {{ hood.location }}</h4>
+                    <h5><small>Registered by: {{ hood.author }}</small></h5>
+                    <a href="{% url "biz-create" hood.id %}">Add business to this hood</a>
+                </div>
+            </div>
+        {% endfor %}
+
+
+    </div>
+
+{% endblock content %}
